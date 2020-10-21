@@ -1,0 +1,30 @@
+{
+  "name": "MyBlog",
+  "version": "1.0.0",
+  "description": "A Blog website for fun and testing my node knowledge.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "serve": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aniket-yadav/My_Blog.git"
+  },
+  "author": "Aniket yadav",
+  "license": "ISC",
+  "homepage": "https://github.com/aniket-yadav/My_Blog.git#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.2",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.10",
+    "mongoose-unique-validator": "^2.0.3",
+    "nodemon": "^2.0.6",
+    "validator": "^13.1.17"
+  }
+}
